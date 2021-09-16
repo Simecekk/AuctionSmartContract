@@ -1,3 +1,14 @@
-Auction smart conctract based on https://www.udemy.com/course/master-ethereum-and-solidity-programming-with-real-world-apps/.
+# Auction solidity smart contract
 
-I chose to use https://hardhat.org/ instead of https://remix.ethereum.org/, also added unittests (chai.js / ethers.js).
+This project is just for my learning purposes but feel free to open any issues
+
+Smart contract is based on https://www.udemy.com/course/master-ethereum-and-solidity-programming-with-real-world-apps/.
+
+I decided to use hardhat instead of remix + created test cases for the smart contract
+
+# Deployment
+1) run the hadhat local network: *npx hardhat node*
+2) run deployment script: *npx hardhat run --network localhost scripts/deploy.js*
+
+# Running tests
+1) run: *npx hardhat test* 

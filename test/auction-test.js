@@ -161,7 +161,7 @@ describe('Auction', function () {
       await expect(
         auction.connect(addr2).finalizeAuction()
       ).to.be.revertedWith(
-        'Only owner or highest bidder must have some bid'
+        'Only owner or bidder can finalize the auction'
       );
 
       await auction.finalizeAuction();

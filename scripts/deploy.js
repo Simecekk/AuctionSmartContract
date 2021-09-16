@@ -5,8 +5,8 @@ async function main() {
   const AuctionCreator = await hre.ethers.getContractFactory("auctionCreator");
   const auctionCreator = await AuctionCreator.deploy();
 
-  await greeter.deployed();
-  console.log("auctionCreator deployed to:", greeter.address);
+  await auctionCreator.deployed();
+  console.log("auctionCreator deployed to:", auctionCreator.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
