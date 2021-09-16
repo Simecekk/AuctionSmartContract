@@ -7,8 +7,8 @@ Smart contract is based on https://www.udemy.com/course/master-ethereum-and-soli
 I decided to use hardhat instead of remix + created test cases for the smart contract
 
 # Deployment
-1) run the hadhat local network: *npx hardhat node*
-2) run deployment script: *npx hardhat run --network localhost scripts/deploy.js*
+1) run the hadhat local network: ```console npx hardhat node```
+2) run deployment script: ```console npx hardhat run --network localhost scripts/deploy.js```
 
 # Running tests
-1) run: *npx hardhat test* 
+1) run: ```console npx hardhat test```
